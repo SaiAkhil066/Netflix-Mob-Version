@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-image: linear-gradient(0deg,rgba(0,0,0,8) 0,transparent 15%,transparent 5%,rgba(0,0,0,.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/45082c39-e6d5-4b02-8867-e38fe32ed3af/4b49769b-ddbc-406a-a26b-482024a66727/IN-en-20220919-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+nav{
+    display: flex;
+}
+
+.main-logo{
+    width: 25vw;
+    padding: 10px;
+}
+
+.dropdown-img{
+    height: 2vh;
+    
+}
+
+.globe{
+    width: 12px;
+    margin-top: -5px;
+    margin-left: -5px;
+
+}
+
+.signin-button{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 70px;
+    
+}
+
+.signin{
+    width: 60px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: -5px;
+}
+
+.third-hero-sec-gif{
+    width: 13vw;
+    padding-right: -20px;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+.signinpara{
+    font-size: 12px;
+}
+
+/* DROPDOWN MENU  */
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 105px;
+    border: 1px solid;
+    height: 25px;
+    width: 70px;
+    display: flex;
+    margin-top: 7px;
+  }
+
+  .lng{
+    font-size: 10px;
+    margin-top: -5px;
+    margin-left: 2px;
+  }
+  
+  .dropdown-icon{
+    margin-top: -8px;
+    margin-left: 2px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.hero-section{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.hero-section-1sth1{
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.hero-section-1stpara{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.hero-section-2ndpara{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+
+}
+
+.email-address-input-box{
+    height: 50px;
+    width: 80vw;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.hero-section-get-started-button{
+    background-color: red;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+}
+
+.hr{
+    background-color: rgb(69, 68, 68);
+    width: 100vw;
+    height: 10px;
+    border: none;
+    margin-top: 50px;
+}
+
+.sec-hero-sec{
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    height: 450px;
+}
+
+.sec-hero-sec-1sth1{
+    font-size: 28px;
+}
+
+.sec-hero-sec-1stpara{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+
+}
+
+.sec-hero-sec-main-only-tv{
+    width: 80vw;
+    padding-bottom: 50px;
+}
+
+.hr2{
+    background-color: rgb(69, 68, 68);
+    width: 100vw;
+    height: 10px;
+    border: none;
+    margin-top: 0px;
+}
+
+.videosecherosec{
+    position: relative;
+    bottom: 225px;
+    right: 1px;
+    width: 208px;
+}
+
+.third-hero-sec{
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    height: 470px;
+}
+
+.third-hero-sec-1sth1{
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.third-hero-sec-1stpara{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 15px;
+    font-size: 18px;
+
+}
+
+.third-hero-sec-only-mobo{
+    width: 80vw;
+}
+
+.third-hero-sec-mobo-div-row-para{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: justify;
+    
+}
+
+.third-hero-sec-mobo-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid white;
+    position: relative;
+    bottom: 70px;
+    width: 70vw;
+    margin-left: 55px;
+    background-color: rgb(32, 31, 31);
+    border-radius: 10px;
+}
+
+.third-hero-sec-mobo-div-img{
+    width: 10vw;
+}
+
+.dnld{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.third-hero-sec-mobo-div-first-para{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.third-hero-sec-mobo-div-sec-para{
+    font-size: 14px;
+    color: blue;
+    margin-top: 3px;
+}
+
+.hr3{
+    background-color: rgb(69, 68, 68);
+    width: 100vw;
+    height: 10px;
+    border: none;
+    margin-top: -10px;
+}
+
+
+.fourth-hero-sec{
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    height: 450px;
+}
+
+.fourth-hero-sec-1sth1{
+    font-size: 28px;
+}
+
+.fourth-hero-sec-1stpara{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+
+}
+
+.fourth-hero-sec-only-mobo{
+    width: 80vw;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 1580px;
+    left: 38px;
+    z-index: 1;
+    
+    
+}
+
+.hr2{
+    background-color: rgb(69, 68, 68);
+    width: 100vw;
+    height: 10px;
+    border: none;
+    margin-top: 0px;
+}
+
+.videofourthherosec{
+    margin-top: 40px;
+    width: 170px;
+    
+}
+
+.fifth-hero-sec{
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+    height: 450px;
+}
+
+.fifth-hero-sec-h1{
+    font-size: 23px;
+}
+
+.fifth-hero-sec-para{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+.fifth-hero-sec-img{
+    width: 90vw;
+}
+
+.faq-sec{
+    color: white;
+    background-color: black;
+    
+}
+
+.faq-sec-1sth1{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.faq-sec-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    height: 40px;
+    padding-left: 30px;
+    align-items: center;
+    background-color: rgb(65, 64, 64);
+    
+}
+
+.faq-sec-box-gap{
+    margin-top: 10px;
+}
+
+.plus-icon{
+    position: absolute;
+    right: 10px;
+    width: 20px;
+}
+
+.faq-sec-2ndpara{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.faq-input{
+    justify-items: center;
+    
+}
+
+.hr-faq{
+    
+        background-color: rgb(69, 68, 68);
+        width: 100vw;
+        height: 10px;
+        border: none;
+    
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer1stpara{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.footerhrefs1strow{
+    display: flex;
+    padding: 30px;
+    gap: 2rem;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 2rem;
+    font-size: 13px;
+}
+
+.footer-dropdown{
+    margin-left: -75px;
+}
+
+.ntflxindia{
+    font-size: 15px;
+    
+    padding: 30px;
+}
