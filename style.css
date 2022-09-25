@@ -22,6 +22,7 @@ nav{
 
 .main-logo{
     width: 25vw;
+    height: 8vh;
     padding: 10px;
 }
 
@@ -37,21 +38,45 @@ nav{
 
 }
 
-.signin-button{
-    margin-left: 25px;
-    margin-top: 10px;
-    width: 70px;
-    
+.hrefsignin{
+    margin-top: 550px;
 }
 
+.signin-button {
+    width: 17vw;
+    margin-left: 15px;
+    height: 26px;
+    margin-top: 7px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.signin-button-page{
+    margin-left: 35px;
+    margin-top: 30px;
+    width: 80vw;
+    height: 8vh;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
 .signin{
     width: 60px;
-    height: 25px;
+    height: 0px;
     background-color: red;
     border: none;
     color: white;
     border-radius: 3px;
-    margin-top: -5px;
+    margin-top: -55px;
+    margin-bottom: 50px;
 }
 
 .third-hero-sec-gif{
@@ -447,12 +472,6 @@ ul{
     padding: 30px;
 }
 
-
-
-
-
-
-
 .signinbody{
     background-color: black;
     color: white;
@@ -485,18 +504,7 @@ ul{
     
 }
 
-.signin-button{
-    width: 80vw;
-    margin-left: 35px;
-    height: 40px;
-    margin-top: 40px;
-    color: white;
-    background-color: red;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 15px;
-}
+
 
 .rem{
     margin-top: 10px;
