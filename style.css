@@ -446,3 +446,100 @@ ul{
     
     padding: 30px;
 }
+
+
+
+
+
+
+
+.signinbody{
+    background-color: black;
+    color: white;
+}
+
+.login-logo{
+    width: 30vw;
+    padding: 10px;
+}
+
+.signin1sth1{
+    padding-left: 20px;
+
+}
+
+.signin-email, .signin-pwd{
+    width: 80vw;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+
+}
+
+.inputparas{
+    text-align: center;
+    
+}
+
+.signin-button{
+    width: 80vw;
+    margin-left: 35px;
+    height: 40px;
+    margin-top: 40px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rem{
+    margin-top: 10px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.checkbox-signin{
+    margin-left: 35px;
+    
+}
+
+.signin-rem-rem{
+    padding-left: 5px;
+    font-size: 13px;
+    padding-top: 1px;
+}
+
+.signin-rempara{
+    padding-left: 115px;
+    font-size: 13px;
+}
+
+.singin-newtonetflix{
+    padding-left: 35px;
+    padding-top: 30px;
+    color: whitesmoke;
+}
+
+.Thispage{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: whitesmoke;
+
+}
+
+.thispagespan{
+    color: blue;
+}
+
+#hr1{
+    border: none;
+    margin-top: 40px;
+}
